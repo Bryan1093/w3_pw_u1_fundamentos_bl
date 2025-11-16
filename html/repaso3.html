@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/repaso3.css">
+    <script src="../js/repaso3.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <div class="container">
+
+        <div class="imagen">
+            <img src="../images/tarjeta.png" alt="" width="400px">
+        </div>
+
+        <nav></nav>
+
+        <div class="formulario">
+
+            <form action="#">
+
+                <section>
+
+                    <div class="datos">
+
+                        <div class="campo1">
+                            <div class="mensaje_error" id="id_msg_error"></div>
+                            <p class="nombre">Cardholder Name</p>
+                            <input type="text" id="id_name" required="true" placeholder="Nombre del titular">
+                            <span></span>
+                        </div>
+
+                        <div class="campo1">
+                            <div class="mensaje_error" id="id_msg_error"></div>
+                            <p class="numero">Card Number</p>
+                            <input type="number" id="id_numero" required="true" placeholder="Numero de la tarjeta">
+                        </div>
+
+                        <div class="campo2">
+                            <div>
+                                <div class="mensaje_error" id="id_msg_error"></div>
+                                <p class="expDate">EXP Date</p>
+                                <input type="date" id="id_exp" required="true">
+                            </div>
+
+                            <div>
+                                <div class="mensaje_error" id="id_msg_error"></div>
+                                <p class="cvv">CVV</p>
+                                <input type="number" id="id_cvv" required="true" placeholder="CVV">
+                            </div>
+                        </div>
+
+                        <button onclick="guardar()">Confirm</button>
+                    </div>
+                </section>
+                <footer></footer>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

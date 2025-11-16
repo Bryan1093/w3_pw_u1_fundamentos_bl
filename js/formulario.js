@@ -6,7 +6,7 @@ function guardar() {
 function validarCampos() {
   let nombre = document.getElementById("id_nombre").value.trim();
   let apellido = document.getElementById("id_apellido").value.trim();
-  let fecha = document.getElementById("id_fecha").value;
+  let fecha = document.getElementById("id_fecha").value();
   let email = document.getElementById("id_email").value.trim();
   let password = document.getElementById("id_password").value.trim();
 
