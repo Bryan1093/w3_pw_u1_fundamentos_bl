@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.formulario {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 30px;
+    background-color: gold;
+    width: 170px;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.titulos{
+    text-align: center;
+}
+
+h2 {
+
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.campo {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.msg_error {
+    background-color: gold;
+    display: none;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.msg_exito {
+    background-color: greenyellow;
+    display: none;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}

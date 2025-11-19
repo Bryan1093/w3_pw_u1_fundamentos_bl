@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/repaso5.css">
+    <script src="../js/repaso5.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div class="formulario">
+            <nav></nav>
+            <section>
+                <form action="#">
+                    <img src="../images/hambueguesa-removebg-preview.png" width="170">
+                    <div class="titulos">
+                        <h1>¡Últimas horas
+                            para suscribirte!
+                        </h1>
+                        <h2>Al suscribirte recibirás un cupón
+                            para tu próxima compra
+                        </h2>
+
+                    </div>
+
+                    <div>
+                        <div class="msg_exito" id="id_msg_exito"></div>
+                        <div class="msg_error" id="id_msg_error"></div>
+                        <p>Número de teléfono</p>
+                        <input type="number" id="id_tel" required="true">
+
+                        <p>Nombre(s)</p>
+                        <input type="text" id="id_nombre" required="true">
+
+                        <p>Ciudad</p>
+                        <input type="text" id="id_ciudad" required="true">
+
+                        <p>Correo electrónico</p>
+                        <input type="email" id="id_email">
+
+                        <div class="campo">
+                            <input type="checkbox" id="id_check">
+                            <label for="id_check">Quiero recibir noticias</label>
+                        </div>
+
+                        <div class="boton">
+                            <button onclick="guardarDatos()">¡Suscribirme!</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <footer>*Aplican condiciones*</footer>
+        </div>
+    </div>
+</body>
+
+</html>

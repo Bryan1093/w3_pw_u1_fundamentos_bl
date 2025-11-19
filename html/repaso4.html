@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/repaso4.css">
+    <script src="../js/repaso4.js"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div class="formulario">
+            <div class="correcto" id="id_correcto"></div>
+            <nav></nav>
+            <section>
+                <form action="#">
+                    <div class="msg_error" id="id_msg_error"></div>
+                    <p>Nombre Completo</p>
+                    <input type="text" id="id_nombre" required="true">
+
+                    <div class="msg_error" id="id_msg_error"></div>
+                    <p>Email</p>
+                    <input type="email" id="id_email" required="true">
+
+                    <div class="msg_error" id="id_msg_error"></div>
+                    <p>Contraseña</p>
+                    <input type="password" id="id_pass" required="true">
+
+                    <div class="msg_error" id="id_msg_error"></div>
+                    <p>Confirmación Contraseña</p>
+                    <input type="password" id="id_pass_conf" required="true">
+
+                    <div class="msg_error" id="id_msg_error"></div>
+                    <p>Edad</p>
+                    <input type="number" id="id_edad">
+
+                    <div class="botones">
+                        <button onclick="guardarDatos()"> Guardar </button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/repaso7.css">
+    <script src="../js/repaso7.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header></header>
+        <div class="formulario">
+            <nav></nav>
+            <form action="#">
+                <section>
+                    <div class="msg_exito" id="id_msg_exito"></div>
+                    <div class="msg_error" id="id_msg_error"></div>
+                    <p>Nombre:</p>
+                    <input type="text" id="id_nombre" required="true">
+
+                    <p>Apellido:</p>
+                    <input type="text" id="id_apellido" required="true">
+
+                    <p>Cédula:</p>
+                    <input type="text" id="id_cedula" required="true" maxlength="10">
+
+                    <div class="guardar">
+                        <button type="button" onclick="guardarDatos()">Guardar</button>
+                    </div>
+
+                    <textarea id="id_json"></textarea>
+                    <div class="json">
+                        <button type="button" onclick="cargarJSON()">JSON</button>
+                    </div>
+                </section>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
